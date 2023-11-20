@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StripeDemoApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application"  %>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <!-- emmbeded checout script -->
+    <script src="embeded/checkout.js" defer></script>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
