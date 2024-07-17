@@ -1,16 +1,8 @@
-# Stripe Training Session
+# Stripe Training Session Outline
 
 - Introduction to Stripe Development
 
-- Stripe Payments Integration:
-
--- Payment Links
-
--- Checkout
-
--- Elements
-
--- API only
+- Stripe Payments Integration (Payment Links, Stripe Checkout, Stripe Elements, API only)
 
 - Handling Subscriptions and Recurring Payments
 
